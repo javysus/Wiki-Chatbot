@@ -41,7 +41,7 @@ Los pasos para generar una respuesta son los siguientes:
 
 ## Contexto de la conversación
 
-![Wiki Chatbot recuerda el nombre](/memoria.jpeg)
+![Wiki Chatbot recuerda el nombre](/memoria_chatbot.jpeg)
 
 ## Ejemplo de preguntas que se pueden hacer al chatbot
 ![Pregunta sobre agujeros negros](/pregunta1.jpeg)
