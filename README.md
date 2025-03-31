@@ -16,7 +16,7 @@ Para la ejecución de los siguientes archivos, es enecesario tener las siguiente
 7. `` langchain-core ``
 8. `` python-dotenv ``
    
-``  pip install langchain langchain-community langchain-huggingface faiss-cpu streamlit
+``  pip install langchain langchain-community langchain-huggingface faiss-cpu streamlit langchain-google-genai langchain-core python-dotenv
 ``
 
 # 📌 Ejecución del archivo carga_datos.ipynb
