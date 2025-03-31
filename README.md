@@ -4,8 +4,23 @@ Creación de un chatbot en Streamlit utilizando el framework Langchain y el data
 # 📌 Dataset utilizado
 Se utilizó el dataset de Wikimedia en español, específicamente la versión [20231101](https://huggingface.co/datasets/wikimedia/wikipedia/viewer/20231101.es). Para ejecutar el código que genera la base de datos vectorial, es necesario que estos archivos estén en el mismo directorio que el código.
 
+# 📌 Librerias necesarias
+Para la ejecución de los siguientes archivos, es enecesario tener las siguientes librerias instaladas
+
+1. `` langchain ``
+2. `` langchain-community ``
+3. `` langchain-huggingface ``
+4. `` faiss-cpu ``
+5. `` streamlit ``
+6. `` langchain-google-genai ``
+7. `` langchain-core ``
+8. `` python-dotenv ``
+   
+``  pip install langchain langchain-community langchain-huggingface faiss-cpu streamlit
+``
+
 # 📌 Ejecución del archivo carga_datos.ipynb
-En este archivo se encuentra el procedimiento utilizado para generar los datos en la base de datos vectorial FAISS. Si se desea descargar directamente el archivo FAISS, se encuentra en este [enlace](https://drive.google.com/file/d/1DEGFLW81RfkzR_Uiizu5hxaSj0CCDpKD/view?usp=sharing), el cual es necesario descomprimit.
+En este archivo se encuentra el procedimiento utilizado para generar los datos en la base de datos vectorial FAISS. Si se desea descargar directamente el archivo FAISS, se encuentra en este [enlace](https://drive.google.com/file/d/1DEGFLW81RfkzR_Uiizu5hxaSj0CCDpKD/view?usp=sharing), el cual es necesario descomprimir.
 
 ## TextSplitter
 Para la segmentación del texto, se utilizó RecursiveCharacterTextSplitter de LangChain, ya que permite dividir documentos largos en fragmentos más pequeños, manteniendo la coherencia del contenido.
