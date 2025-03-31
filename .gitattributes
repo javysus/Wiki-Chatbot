@@ -1,0 +1,2 @@
+faiss_index filter=lfs diff=lfs merge=lfs -text
+20231101.es filter=lfs diff=lfs merge=lfs -text
